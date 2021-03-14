@@ -838,7 +838,7 @@ function main()
     if not isSampLoaded() or not isSampfuncsLoaded() then return end
     while not isSampAvailable() do wait(100) end
 	
-	autoupdate("https://raw.githubusercontent.com/TSIDEX/auto-up/main/KGT.json", '['..string.upper(thisScript().name)..']: ', "https://raw.githubusercontent.com/TSIDEX/auto-up/main/KGT%20Helper.lua")
+	autoupdate("https://raw.githubusercontent.com/TSIDEX/auto-up/main/KGT%20Helper.json", '['..string.upper(thisScript().name)..']: ', "https://raw.githubusercontent.com/TSIDEX/auto-up/main/KGT%20Helper.lua")
 	
 		sampAddChatMessage('{4c4f45}[KGT Helper] {FFFFFF}Скрипт KGT Helper {CC0000}Региональной службы безопасности{FFFFFF} успешно запущен, приятного пользования.', 0xffffff)
 		sampAddChatMessage('{4c4f45}[KGT Helper] {FFFFFF}Разработчики скрипта: Trofim Shcherbakov и Alexander Russkov. Дополнительная информация - /kgt .', 0xffffff)
